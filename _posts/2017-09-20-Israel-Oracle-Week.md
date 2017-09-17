@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Baruch Osoveskiy, Israel Oracle Week 2017"
+title: "Israel Oracle Week 2017"
 date: 2017-09-17
 ---
 On the next Israel Oracle Week I will teach a daily course about MySQL 
