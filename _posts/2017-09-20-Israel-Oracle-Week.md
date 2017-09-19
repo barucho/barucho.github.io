@@ -19,3 +19,5 @@ This will be the Sylabus:
 * THE Performance Schema.
 * Scaling horizontally and vertically - Sharding Replication and Partition  
 * JSON and Document-store
+
+
