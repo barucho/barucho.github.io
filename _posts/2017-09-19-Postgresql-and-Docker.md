@@ -5,15 +5,15 @@ date: 2017-09-19
 ---
 
 I created a Postgresql docker that can automatically start as slave
-on the docker docker-entrypoint.sh i added script that 
+on the docker docker-entrypoint.sh i added script that:
+
 * chack if the server/Docker is SLAVE 
 * recover from master 
 * replace config file 
 * create recover file 
 
 **NOTE**
-The use of Docker to run databases in producation is not recomended if you have high load databases 
-And of course you will need to use presistent volume:
+The use of Docker to run databases in production is not recommended if you have high load databases And of course, you will need to use persistent volume:
 
 ```bash
 docker volume create --name u01
