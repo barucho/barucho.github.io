@@ -7,7 +7,7 @@ date: 2017-10-09
 MyRocks is a MySQL storage engine By Facebook that integrates with RocksDB. It provides improved flash storage performance through efficiencies in reading, writing, and storing data.
 
 
-##to install :
+## to install :
 
 * first lets download the source.
 ```bash
