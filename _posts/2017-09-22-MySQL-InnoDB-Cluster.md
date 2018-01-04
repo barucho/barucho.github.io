@@ -20,7 +20,7 @@ MySQL InnoDB cluster is a collection of products that work together to provide a
 
 **befor we bagin** 
 * use MySQL 5.7.19+
-
+* we need a minimum of 3 nodes to prevent [Split-brain](https://en.wikipedia.org/wiki/Split-brain_(computing))
 * we will need the group_replication plugin to see if you the the plugin installed : 
 
 ```sql
@@ -196,6 +196,41 @@ SELECT * FROM performance_schema.replication_group_members;
 +---------------------------+--------------------------------------+-------------+-------------+--------------+
 1 row in set (0.00 sec)
 
+```
+
+
+### Adding a Second Server
+
+```bash
+mysqld --defaults-file=/u01/data/mysql_group1/2/my.cnf &
+
+mysql -u root -p --port 24802 --protocol=tcp
+```
+
+```sql
+SET SQL_LOG_BIN=0;
+CREATE USER rpl_user@'%';
+GRANT REPLICATION SLAVE ON *.* TO rpl_user@'%' IDENTIFIED BY 'rpl_pass';
+FLUSH PRIVILEGES;
+SET SQL_LOG_BIN=1;
+CHANGE MASTER TO MASTER_USER='rpl_user', MASTER_PASSWORD='rpl_pass' FOR CHANNEL 'group_replication_recovery';
+```
+### Adding a third Server
+
+
+```bash
+mysqld --defaults-file=/u01/data/mysql_group1/3/my.cnf &
+
+mysql -u root -p --port 24803 --protocol=tcp
+```
+
+```sql
+SET SQL_LOG_BIN=0;
+CREATE USER rpl_user@'%';
+GRANT REPLICATION SLAVE ON *.* TO rpl_user@'%' IDENTIFIED BY 'rpl_pass';
+FLUSH PRIVILEGES;
+SET SQL_LOG_BIN=1;
+CHANGE MASTER TO MASTER_USER='rpl_user', MASTER_PASSWORD='rpl_pass' FOR CHANNEL 'group_replication_recovery';
 ```
 
 
