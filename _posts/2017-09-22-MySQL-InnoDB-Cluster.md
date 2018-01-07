@@ -23,11 +23,11 @@ MySQL InnoDB cluster is a collection of products that work together to provide a
 * we need a minimum of 3 nodes to prevent [Split-brain](https://en.wikipedia.org/wiki/Split-brain_(computing))
 * we will need the group_replication plugin to see if you the the plugin installed : 
 
-```sql
+~~~sql
 SHOW PLUGINS;
 | group_replication          | ACTIVE   | GROUP REPLICATION  | group_replication.so | GPL     |
 
-```
+~~~
 * to install 
 
 ```sql
