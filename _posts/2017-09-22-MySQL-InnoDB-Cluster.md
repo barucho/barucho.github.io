@@ -23,16 +23,16 @@ MySQL InnoDB cluster is a collection of products that work together to provide a
 * we need a minimum of 3 nodes to prevent [Split-brain](https://en.wikipedia.org/wiki/Split-brain_(computing))
 * we will need the group_replication plugin to see if you the the plugin installed : 
 
-~~~sql
+~~~ sql
 SHOW PLUGINS;
 | group_replication          | ACTIVE   | GROUP REPLICATION  | group_replication.so | GPL     |
 
 ~~~
 * to install 
 
-```sql
+~~~ sql
 INSTALL PLUGIN group_replication SONAME 'group_replication.so';
-```
+~~~
 
 
 
@@ -44,10 +44,10 @@ i will created the 3 nodes on the same machine by using diffrent data dir and po
 
 **first create directories**
 
-```bash 
+~~~ bash 
 mkdir -p /u01/data/mysql_group1/{1,2,3}
 mkdir -p /u01/etc/{1,2,3}
-``` 
+~~~
 
 **initialize mysql metadata**
 the *--initialize-insecure* flage will create root user witout passowrd.
