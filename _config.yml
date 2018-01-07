@@ -1,4 +1,4 @@
 name: Baruch Osoveskiy, 
 markdown: kramdown
-highlighter: rouge
+highlighter: Pygments
 permalink: /blog/:year/:month/:day/:title
