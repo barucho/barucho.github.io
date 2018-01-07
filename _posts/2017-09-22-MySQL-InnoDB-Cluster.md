@@ -46,7 +46,7 @@ i will created the 3 nodes on the same machine by using diffrent data dir and po
 
 **first create directories**
 
-{% highlight shell %}
+{% highlight bash %}
 mkdir -p /u01/data/mysql_group1/{1,2,3}
 mkdir -p /u01/etc/{1,2,3}
 {% highlight %}
