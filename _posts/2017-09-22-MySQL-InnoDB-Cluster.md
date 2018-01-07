@@ -38,17 +38,18 @@ INSTALL PLUGIN group_replication SONAME 'group_replication.so';
 
 
 
-## lets configure 3 nodes one master ... 
+**lets configure 3 nodes one master ...**
 i will created the 3 nodes on the same machine by using diffrent data dir and port numbers 
 
 
-### first create directories 
+**first create directories**
 
 ```bash 
 mkdir -p /u01/data/mysql_group1/{1,2,3}
 mkdir -p /u01/etc/{1,2,3}
 ``` 
-### initialize mysql metadata  
+
+**initialize mysql metadata**
 the *--initialize-insecure* flage will create root user witout passowrd.
 
 ```bash 
@@ -58,7 +59,7 @@ mysqld --initialize-insecure  --datadir=/u01/data/mysql_group1/3
 ```
 
 
-### the my.cnf for all 3 nodes 
+**the my.cnf for all 3 nodes**
 create the relevnt config file in /u01/etc/{1,2,3} 
 
 ```conf
@@ -153,11 +154,11 @@ loose-group_replication_enforce_update_everywhere_checks= TRUE
 ```
 
 
-###start node 1 
+**start node 1**
 ```bash 
 mysqld --defaults-file=/u01/data/mysql_group1/1/my.cnf
 ```
-###create replication user 
+**create replication user**
 
 ```bash
 mysql -u root -p --port 24801 --protocol=tcp
@@ -173,8 +174,8 @@ SET SQL_LOG_BIN=1;
 CHANGE MASTER TO MASTER_USER='rpl_user', MASTER_PASSWORD='rpl_pass' FOR CHANNEL 'group_replication_recovery';
 ```
 
-### bootstrap the group replication: 
-* this need to be run only! on the first node!!
+**bootstrap the group replication:**
+- this need to be run only! on the first node!!
 
 ```bash
 mysql -u root -p --port 24801 --protocol=tcp
@@ -199,7 +200,7 @@ SELECT * FROM performance_schema.replication_group_members;
 ```
 
 
-### Adding a Second Server
+**Adding a Second Server**
 
 ```bash
 mysqld --defaults-file=/u01/data/mysql_group1/2/my.cnf &
@@ -215,7 +216,7 @@ FLUSH PRIVILEGES;
 SET SQL_LOG_BIN=1;
 CHANGE MASTER TO MASTER_USER='rpl_user', MASTER_PASSWORD='rpl_pass' FOR CHANNEL 'group_replication_recovery';
 ```
-### Adding a third Server
+**Adding a third Server**
 
 
 ```bash
