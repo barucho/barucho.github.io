@@ -28,12 +28,14 @@ SHOW PLUGINS;
 | group_replication          | ACTIVE   | GROUP REPLICATION  | group_replication.so | GPL     |
 
 ~~~
+{: .language-sql}
+
 * to install 
 
 ~~~ sql
 INSTALL PLUGIN group_replication SONAME 'group_replication.so';
 ~~~
-
+{: .language-sql}
 
 
 
@@ -44,10 +46,13 @@ i will created the 3 nodes on the same machine by using diffrent data dir and po
 
 **first create directories**
 
-~~~ bash 
+{% highlight bash %}
 mkdir -p /u01/data/mysql_group1/{1,2,3}
 mkdir -p /u01/etc/{1,2,3}
-~~~
+{% highlight %}
+
+
+
 
 **initialize mysql metadata**
 the *--initialize-insecure* flage will create root user witout passowrd.
