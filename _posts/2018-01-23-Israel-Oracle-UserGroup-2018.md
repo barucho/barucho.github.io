@@ -9,10 +9,10 @@ in this presentation, I tried to explain in high level How to install and Admin 
 And also I added sort Demo on Innodb Cluster 
 
 this is the presentation: 
-(MySQL_For_Oracle_DBA.pdf)[https://github.com/barucho/presentations/blob/master/MySQL_For_Oracle_DBA.pdf]
+[MySQL_For_Oracle_DBA.pdf](https://github.com/barucho/presentations/blob/master/MySQL_For_Oracle_DBA.pdf)
 
 This is the MySQL InnoDB Cluster:
-(group_rep_sandbox.sh)[https://github.com/barucho/mysql_sandboxs/blob/master/innodb_cluser/group_rep_sandbox.sh]
+[group_rep_sandbox.sh](https://github.com/barucho/mysql_sandboxs/blob/master/innodb_cluser/group_rep_sandbox.sh)
 
 
 
