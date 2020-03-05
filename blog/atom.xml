@@ -4,14 +4,14 @@ layout: feed
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>Barcuh Osoveskiy Blog</title>
+ <title>Barcuh Assif (Osoveskiy) Blog</title>
  <link href="http://barucho.github.io/blog/atom.xml" rel="self"/>
  <link href="http://barucho.github.io/blog"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>http://barucho.github.io/blog</id>
  <author>
-   <name>Hank Quinlan</name>
-   <email>baruchohub@gmail.com</email>
+   <name>baruch assif osoveskiy</name>
+   <email>barucho@gmail.com</email>
  </author>
 
  {% for post in site.posts %}
