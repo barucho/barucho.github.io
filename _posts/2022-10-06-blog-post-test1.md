@@ -22,7 +22,6 @@ select * from table
 select * from table
 ```
 
-
 {% highlight sql %}
 select * from dual;
 SELECT * FROM dual;
