@@ -21,10 +21,12 @@ select * from table
 ```sql
 select * from table
 ```
-~~~ sql
-select * from table;
-~~~
-{: .language-sql}
+
+
+{% highlight sql %}
+select * from dual;
+SELECT * FROM dual;
+{% endhighlight %}
 
 
 Aren't headings cool?
