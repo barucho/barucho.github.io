@@ -22,7 +22,7 @@ select * from table
 select * from table
 ```
 
-{% highlight sql %}
+{% highlight sql linenos %}
 select * from dual;
 SELECT * FROM dual;
 {% endhighlight %}
