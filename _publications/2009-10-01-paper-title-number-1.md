@@ -12,4 +12,4 @@ This paper is about the number 1. The number 2 is left for future work.
 
 [Download paper here](https://aws.amazon.com/blogs/database/enable-change-data-capture-on-amazon-rds-for-mysql-applications-that-are-using-xa-transactions/)
 
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+Recommended citation: Baruch Assif  (2022). "Enable change data capture on Amazon RDS for MySQL applications that are using XA transactions." <i>AWS Database Blog</i>. 1(1).
