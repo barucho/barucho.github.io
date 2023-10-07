@@ -4,7 +4,7 @@ collection: talks
 type: "Talk"
 permalink: /talks/2012-11-27-MySQL-JSON-Data-Type-and-Migration
 venue: ""
-date: 2012-27-11
+date: 2012-11-27
 location: "Virtual"
 ---
 
