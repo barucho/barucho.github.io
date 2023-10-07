@@ -17,7 +17,7 @@ Today i am working mostly with Open-source engines like MySQL,PostgreSQL and als
 I also Talk and write about Database and Open-source tools
 and build tools to help DBA`s  to manage their databases.
 
-For My Blogs: [Link](https://barucho.github.io/posts/) <br>
-For My Public Takes: [Link](https://barucho.github.io/talks/)<br>
-For My Public publications: [Link](https://barucho.github.io/publications/) <br>
+[Blogs](https://barucho.github.io/posts/) <br>
+[Public Talks](https://barucho.github.io/talks/)<br>
+[Public Publications](https://barucho.github.io/publications/) <br>
 ------
