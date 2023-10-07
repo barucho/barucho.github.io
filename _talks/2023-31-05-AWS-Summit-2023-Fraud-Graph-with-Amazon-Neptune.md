@@ -13,4 +13,4 @@ The Graph Model has become increasingly popular, especially in use cases such as
 Speakers: Baruch Assif Osoveskiy, Senior Partner Solutions Architect, Database, AWS
 
 
-(Link)[https://www.youtube.com/watch?v=0hE01VwYYU4&t=597s]
+[Link](https://www.youtube.com/watch?v=0hE01VwYYU4&t=597s)

@@ -15,4 +15,4 @@ In this session, we will provide an overview of graph databases, the types of wo
 Speakers: Baruch Assif Osoveskiy, Senior Partner Solutions Architect, Database, AWS
 
 
-(Link)[https://www.youtube.com/watch?v=8YlIVwjO2d4]
+[Link](https://www.youtube.com/watch?v=8YlIVwjO2d4)
