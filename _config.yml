@@ -85,7 +85,7 @@ author:
   bio              : "Solutions Architect,Data Specialist @ AWS"
   location         : "Israel"
   employer         : "AWS"
-  pubmed           : ""
+  #pubmed           : ""
   googlescholar    : ""
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"

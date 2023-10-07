@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-Currently I am solution architect Database Specialist @ AWS
+Currently I am solution architect Database Specialist @ AWS.
 i am working with databases for more then 25 years started with IBM Informix , oracle and MySQL.
 I my Past i was the database group tech lead @ WIX.COM and a consultant.
 Today i am working mostly with Open-source engines like MySQL,PostgreSQL and also with graph and vector databases like Amazon Neptune and Neo4j.
