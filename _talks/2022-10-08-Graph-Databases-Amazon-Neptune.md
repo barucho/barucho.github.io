@@ -8,7 +8,7 @@ date: 2023-05-31
 location: "Virtual"
 ---
 
-mazon Neptune is a fast, reliable, fully-managed graph database service that makes it easy to build and run graph applications with highly connected datasets.
+Amazon Neptune is a fast, reliable, fully-managed graph database service that makes it easy to build and run graph applications with highly connected datasets.
 
 In this session, we will provide an overview of graph databases, the types of workloads that are best suited for them, how they are used, and why they are useful. We will also look into how Amazon Neptune functions under the hood, focusing on its architecture as well as high-level operational best practices. Features covered include its cloud-native storage layer, read replicas, security, backup and restore, and monitoring.
 
