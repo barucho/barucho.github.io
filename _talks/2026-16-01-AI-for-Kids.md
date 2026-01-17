@@ -4,7 +4,7 @@ collection: talks
 type: "Talk"
 permalink: /talks/AI-for-Kids
 venue: "commit website"
-date: 2026-18-01
+date: 2026-16-01
 location: "Tel Aviv"
 ---
 
