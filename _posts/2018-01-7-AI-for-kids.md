@@ -16,6 +16,20 @@ tags:
     <p>לינקים שימושיים לשיעור שלנו</p>
   </div>
 
+
+<div class="link-category">
+    <h2 class="link-category-title">ענן מילים</h2>
+
+    <a href="https://www.menti.com/ald89yfs3uev" class="link-card primary" target="_blank">
+      <span class="link-card-icon">☁️</span>
+      <div class="link-card-title">Teachable Machine</div>
+      <div class="link-card-description">נכתוב מה זה בינה מלאכותית בישבילנו</div>
+    </a>
+
+  </div>
+
+
+
   <div class="link-category">
     <h2 class="link-category-title">כלים ומשחקים</h2>
     
